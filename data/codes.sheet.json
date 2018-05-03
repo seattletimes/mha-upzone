@@ -1,0 +1,659 @@
+{
+  "C1-125": {
+    "mha_cat": 5,
+    "type": "Commercial",
+    "description": "Up to 125' in height"
+  },
+  "C1-145": {
+    "mha_cat": 5,
+    "type": "Commercial",
+    "description": "Up to 145' in height"
+  },
+  "C1-160": {
+    "mha_cat": 5,
+    "type": "Commercial",
+    "description": "Up to 160' in height"
+  },
+  "C1-200": {
+    "mha_cat": 5,
+    "type": "Commercial",
+    "description": "Up to 200' in height"
+  },
+  "C1-30": {
+    "mha_cat": 2,
+    "type": "Commercial",
+    "description": "Up to 30' in height"
+  },
+  "C1-40": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 40' in height"
+  },
+  "C1-40 (0.75)": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 40' in height"
+  },
+  "C1-55": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 55' in height"
+  },
+  "C1-65": {
+    "mha_cat": 4,
+    "type": "Commercial",
+    "description": "Up to 65' in height"
+  },
+  "C1-75": {
+    "mha_cat": 4,
+    "type": "Commercial",
+    "description": "Up to 75' in height"
+  },
+  "C1-85": {
+    "mha_cat": 4,
+    "type": "Commercial",
+    "description": "Up to 85' in height"
+  },
+  "C1-95": {
+    "mha_cat": 4,
+    "type": "Commercial",
+    "description": "Up to 95' in height"
+  },
+  "C1P-30": {
+    "mha_cat": 2,
+    "type": "Commercial",
+    "description": "Up to 30' in height"
+  },
+  "C1P-40": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 40' in height"
+  },
+  "C1P-55": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 55' in height"
+  },
+  "C1P-65": {
+    "mha_cat": 4,
+    "type": "Commercial",
+    "description": "Up to 65' in height"
+  },
+  "C1P-75": {
+    "mha_cat": 4,
+    "type": "Commercial",
+    "description": "Up to 75' in height"
+  },
+  "C2-30": {
+    "mha_cat": 2,
+    "type": "Commercial",
+    "description": "Up to 30' in height"
+  },
+  "C2-40": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 40' in height"
+  },
+  "C2-55": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 55' in height"
+  },
+  "C2-65": {
+    "mha_cat": 4,
+    "type": "Commercial",
+    "description": "Up to 65' in height"
+  },
+  "C2-75": {
+    "mha_cat": 4,
+    "type": "Commercial",
+    "description": "Up to 75' in height"
+  },
+  "C2P-40": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 40' in height"
+  },
+  "C2P-55": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 55' in height"
+  },
+  "HR": {
+    "mha_cat": 5,
+    "type": "Residential",
+    "description": "Highrise apartments"
+  },
+  "HR-PUD": {
+    "mha_cat": 5,
+    "type": "Residential",
+    "description": "Highrise apartments"
+  },
+  "IC-45": {
+    "mha_cat": 3,
+    "type": "Industrial Commercial",
+    "description": "Up to 45' in height"
+  },
+  "IC-65": {
+    "mha_cat": 4,
+    "type": "Industrial Commercial",
+    "description": "Up to 65' in height"
+  },
+  "IC-85": {
+    "mha_cat": 4,
+    "type": "Industrial Commercial",
+    "description": "Up to 85' in height"
+  },
+  "LR1": {
+    "mha_cat": 2,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR1 RC": {
+    "mha_cat": 2,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR2": {
+    "mha_cat": 2,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR2 (0.75)": {
+    "mha_cat": 2,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR2 PUD": {
+    "mha_cat": 2,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR2 RC": {
+    "mha_cat": 2,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR3": {
+    "mha_cat": 3,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR3 (0.75)": {
+    "mha_cat": 3,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR3 (1.2)": {
+    "mha_cat": 3,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR3 PUD": {
+    "mha_cat": 3,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "LR3 RC": {
+    "mha_cat": 3,
+    "type": "Residential",
+    "description": "Lowrise building and apartments"
+  },
+  "MIO-50-C1-40": {
+    "mha_cat": 3,
+    "type": "Commercial",
+    "description": "Up to 40' in height"
+  },
+  "MIO-50-NC2-75": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 75' in height"
+  },
+  "MR": {
+    "mha_cat": 4,
+    "type": "Mixed Residential"
+  },
+  "MR (0.75)": {
+    "mha_cat": 4,
+    "type": "Mixed Residential"
+  },
+  "MR (1.2)": {
+    "mha_cat": 4,
+    "type": "Mixed Residential"
+  },
+  "MR (1.3)": {
+    "mha_cat": 4,
+    "type": "Mixed Residential"
+  },
+  "MR (2.0)": {
+    "mha_cat": 4,
+    "type": "Mixed Residential"
+  },
+  "MR RC": {
+    "mha_cat": 4,
+    "type": "Mixed Residential"
+  },
+  "MR-85": {
+    "mha_cat": 4,
+    "type": "Mixed Residential",
+    "description": "Up to 85' in height"
+  },
+  "MR-RC": {
+    "mha_cat": 4,
+    "type": "Mixed Residential"
+  },
+  "NC1-30": {
+    "mha_cat": 2,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 30' in height"
+  },
+  "NC1-40": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC1-55": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 55' in height"
+  },
+  "NC1-65": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC1-75": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 75' in height"
+  },
+  "NC1P-30": {
+    "mha_cat": 2,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 30' in height"
+  },
+  "NC1P-40": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC1P-40 (0.75)": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC1P-40 (1.2)": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC1P-55": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 55' in height"
+  },
+  "NC1P-65": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2-30": {
+    "mha_cat": 2,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 30' in height"
+  },
+  "NC2-40": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC2-40 (1.3)": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC2-55": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 55' in height"
+  },
+  "NC2-65": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2-65 (1.3)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2-65 (3.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2-65 (4.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2-75": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 75' in height"
+  },
+  "NC2P-30": {
+    "mha_cat": 2,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 30' in height"
+  },
+  "NC2P-40": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC2P-40 (0.75)": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC2P-40 (1.2)": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC2P-55": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 55' in height"
+  },
+  "NC2P-65": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2P-65 (0.75)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2P-65 (1.3)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2P-65 (3.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2P-65 (4.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC2P-75": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 75' in height"
+  },
+  "NC3-125": {
+    "mha_cat": 5,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 125' in height"
+  },
+  "NC3-145": {
+    "mha_cat": 5,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 145' in height"
+  },
+  "NC3-160": {
+    "mha_cat": 5,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 160' in height"
+  },
+  "NC3-200": {
+    "mha_cat": 5,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 200' in height"
+  },
+  "NC3-30": {
+    "mha_cat": 2,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 30' in height"
+  },
+  "NC3-40": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC3-55": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 55' in height"
+  },
+  "NC3-65": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3-65 (1.3)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3-65 (2.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3-65 (3.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3-65 (4.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3-75": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 75' in height"
+  },
+  "NC3-85": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 85' in height"
+  },
+  "NC3-85 (4.75)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 85' in height"
+  },
+  "NC3-95": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 95' in height"
+  },
+  "NC3P-160": {
+    "mha_cat": 5,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 160' in height"
+  },
+  "NC3P-200": {
+    "mha_cat": 5,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 200' in height"
+  },
+  "NC3P-40": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 40' in height"
+  },
+  "NC3P-55": {
+    "mha_cat": 3,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 55' in height"
+  },
+  "NC3P-65": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3P-65 (1.3)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3P-65 (2.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3P-65 (3.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3P-65 (4.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 65' in height"
+  },
+  "NC3P-75": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 75' in height"
+  },
+  "NC3P-85": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 85' in height"
+  },
+  "NC3P-85 (1.3)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 85' in height"
+  },
+  "NC3P-85 (2.0)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 85' in height"
+  },
+  "NC3P-85 (4.75)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 85' in height"
+  },
+  "NC3P-85 (5.75)": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 85' in height"
+  },
+  "NC3P-95": {
+    "mha_cat": 4,
+    "type": "Neighborhood Commercial",
+    "description": "Up to 95' in height"
+  },
+  "RSL": {
+    "mha_cat": 1,
+    "type": "Residential",
+    "description": "Residential and small lots (duplexes and attached housing)"
+  },
+  "RSL/TC": {
+    "mha_cat": 1,
+    "type": "Residential",
+    "description": "Residential and small lots (duplexes and attached housing)"
+  },
+  "SF 5000": {
+    "mha_cat": 0,
+    "type": "Residential",
+    "description": "Single-family homes"
+  },
+  "SF 7200": {
+    "mha_cat": 0,
+    "type": "Residential",
+    "description": "Single-family homes"
+  },
+  "SM-95": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 95' in height"
+  },
+  "SM-D 40-85": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 85' in height"
+  },
+  "SM-D 95": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 95' in height"
+  },
+  "SM-NG 145": {
+    "mha_cat": 5,
+    "type": "Mixed",
+    "description": "Up to 145' in height"
+  },
+  "SM-NG 240": {
+    "mha_cat": 5,
+    "type": "Mixed",
+    "description": "Up to 240' in height"
+  },
+  "SM-NR 145": {
+    "mha_cat": 5,
+    "type": "Mixed",
+    "description": "Up to 145' in height"
+  },
+  "SM-NR 55/75 (2.0)": {
+    "mha_cat": 4,
+    "type": "Mixed"
+  },
+  "SM-NR 75": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 75' in height"
+  },
+  "SM-NR 95": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 95' in height"
+  },
+  "SM-NR-125": {
+    "mha_cat": 5,
+    "type": "Mixed",
+    "description": "Up to 125' in height"
+  },
+  "SM-NR-65": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 65' in height"
+  },
+  "SM-NR-85": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 85' in height"
+  },
+  "SM-RB 125": {
+    "mha_cat": 5,
+    "type": "Mixed",
+    "description": "Up to 125' in height"
+  },
+  "SM-RB 55": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 55' in height"
+  },
+  "SM-RB 85": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 85' in height"
+  },
+  "SM/R-65": {
+    "mha_cat": 4,
+    "type": "Mixed",
+    "description": "Up to 65' in height"
+  }
+}

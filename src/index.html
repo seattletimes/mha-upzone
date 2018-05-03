@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <responsive-child>
+      <main class="interactive">
+        <h2>Where the rezone takes place</h2>
+        <p>
+          The city's Mandatory Housing Affordability initiative will rezone for higher density in neighborhoods throughout Seattle, but the changes aren't uniform. Instead, changes between five density levels (as listed below) are based on displacement impact, transit, and affordable housing options.
+
+        <ul class="density-table">
+          <li> <b>Level 1:</b>
+            Single-family homes and residential small lots
+          <li> <b>Level 2:</b>
+            Lowrise buildings and neighborhood commercial buildings under 30'
+          <li> <b>Level 3:</b>
+            Denser lowrise buildings and neighborhood commercial buildings under 55'
+          <li> <b>Level 4:</b>
+            Height limits between 55' and 95'
+          <li> <b>Level 5:</b>
+            Height limits over 95'
+        </ul>
+        <div class="mode-controls control-block">
+          <% [
+            { data: "change", label: "Zoning change" },
+            { data: "before", label: "Before rezone" },
+            { data: "after", label: "After rezone" }
+          ].forEach(function(input, i) { %>
+          <input id="<%= input.data %>" type="radio" name="modes" value="<%= input.data %>" <%= !i ? "checked=\"checked\"" : "" %>>
+          <label for="<%= input.data %>"><%= input.label %></label>
+          <% }); %>
+        </div>
+        <!--<div class="type-filter control-block">
+          <%
+          var types = {};
+          for (var k in json.codes) types[json.codes[k].type || ""] = true;
+          Object.keys(types).filter(f => f).sort().forEach(function(d) { %>
+          <input id="<%= d %>" type="checkbox" name="types" value="<%= d %>" checked="checked">
+          <label for="<%= d %>"><%= d %></label>
+          <% }) %>
+        </div>-->
+        <div class="key"></div>
+        <div class="map-container" role="img" alt="A map of Seattle upzone data">
+          <leaflet-map>
+            <map-options>{ "scrollWheelZoom": false }</map-options>
+            <tile-layer layer="cartoPositron"></tile-layer>
+          </leaflet-map>
+          <button class="load-data">Click to load map</button>
+        </div>
+      </main>
+    </responsive-child>
+
+    <script>
+window.zoneCodes = <%= JSON.stringify(json.codes) %>;
+    </script>
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
