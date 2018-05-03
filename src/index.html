@@ -10,19 +10,13 @@
       <main class="interactive">
         <h2>Where the rezone takes place</h2>
         <p>
-          The city's Mandatory Housing Affordability initiative will rezone for higher density in neighborhoods throughout Seattle, but the changes aren't uniform. Instead, changes between five density levels (as listed below) are based on displacement impact, transit, and affordable housing options.
+          The city's Mandatory Housing Affordability initiative will rezone for higher density in neighborhoods throughout Seattle, but the changes aren't uniform. Instead, changes between five density levels (as listed below) are based on displacement impact, transit, and affordable housing options. We have added a sixth level for single-family homes, to show the areas where they are replaced with denser development options.
 
         <ul class="density-table">
-          <li> <b>Level 1:</b>
-            Single-family homes and residential small lots
-          <li> <b>Level 2:</b>
-            Lowrise buildings and neighborhood commercial buildings under 30'
-          <li> <b>Level 3:</b>
-            Denser lowrise buildings and neighborhood commercial buildings under 55'
-          <li> <b>Level 4:</b>
-            Height limits between 55' and 95'
-          <li> <b>Level 5:</b>
-            Height limits over 95'
+          <% json.levels.forEach(function(row) { %>
+          <li> <b>Level <%= row.level %>:</b>
+            <%= row.description %>
+          <% }) %>
         </ul>
         <div class="mode-controls control-block">
           <% [

@@ -1,0 +1,26 @@
+[
+  {
+    "level": 0,
+    "description": "Single-family homes"
+  },
+  {
+    "level": 1,
+    "description": "Residential small lots"
+  },
+  {
+    "level": 2,
+    "description": "Lowrise buildings and neighborhood commercial buildings under 30'"
+  },
+  {
+    "level": 3,
+    "description": "Denser lowrise buildings and neighborhood commercial buildings under 55'"
+  },
+  {
+    "level": 4,
+    "description": "Height limits between 55' and 95'"
+  },
+  {
+    "level": 5,
+    "description": "Height limits over 95'"
+  }
+]

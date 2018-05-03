@@ -25,7 +25,7 @@ var lerp = function(a, b, d) {
   return out;
 };
 
-var lowColor = [84, 6, 84];
+var lowColor = [66, 6, 66];
 var highColor = [240, 133, 12];
 
 var processFeature = function(feature, layer) {
@@ -37,27 +37,20 @@ var processFeature = function(feature, layer) {
   props.mha = props.mha.replace(" " + sub, "").trim();
   props.mha_change = change;
   props.mha_before = window.zoneCodes[props.zoning];
-  props.mha_after = window.zoneCodes[props.mha] ? window.zoneCodes[props.mha] : {};
+  props.mha_after = window.zoneCodes[props.mha] ? window.zoneCodes[props.mha] : { mha_cat: props.mha_before.mha_cat };
+  props.delta = props.mha_after.mha_cat - props.mha_before.mha_cat;
   props.type = window.zoneCodes[props.zoning].type;
 };
 
 var changeColor = function(props) {
-  var fillColor;
-  switch (props.mha_change) {
-    case "no MHA":
-    case "M":
-      fillColor = palette.dfMiddleGray;
-    break;
-
-    case "M1":
-      fillColor = rgb(128, 30, 30);
-    break;
-
-    case "M2":
-      fillColor = rgb(255, 50, 50);
-    break;
+  if (props.delta == 0) {
+    return palette.dfMiddleGray;
+  } else if (props.delta == 1) {
+      return rgb(128, 30, 30);
+  } else if (props.delta > 1) {
+      return rgb(255, 50, 50);
   }
-  return fillColor;
+  return magenta;
 };
 
 var makeLerp = function(property) {
