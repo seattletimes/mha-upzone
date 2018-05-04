@@ -10,7 +10,7 @@
       <main class="interactive">
         <h2>Where the rezone takes place</h2>
         <p>
-          The city's Mandatory Housing Affordability initiative will rezone for higher density in neighborhoods throughout Seattle, but the changes aren't uniform. Instead, changes between five density levels (as listed below) are based on displacement impact, transit, and affordable housing options. We have added a sixth level for single-family homes, to show the areas where they are replaced with denser development options.
+          The city's Mandatory Housing Affordability initiative will make zoning changes between five density levels (as listed below) based on displacement impact, transit, and affordable housing options. Lowrise zoning (LR1, LR2, and LR3) is also being redefined to be more dense.
 
         <ul class="density-table">
           <% json.levels.forEach(function(row) { %>
@@ -44,6 +44,12 @@
             <tile-layer layer="cartoPositron"></tile-layer>
           </leaflet-map>
           <button class="load-data">Click to load map</button>
+        </div>
+        <div class="notes">
+          <p>
+            * Level 0 is not specified within the city's MHA plans, but has been added to show the transition between single-family homes and denser residential options.
+          <p>
+            ** Under the MHA plan, lowrise zoning (LR1, LR2 and LR3) is redefined to be more dense compared to its previous definition, even if the zoning code remains the same.
         </div>
       </main>
     </responsive-child>

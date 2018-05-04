@@ -35,20 +35,32 @@ var processFeature = function(feature, layer) {
   if (!match) return;  
   var [ sub, change ] = match;
   props.mha = props.mha.replace(" " + sub, "").trim();
+  var { zoning, mha } = props;
   props.mha_change = change;
-  props.mha_before = window.zoneCodes[props.zoning];
-  props.mha_after = window.zoneCodes[props.mha] ? window.zoneCodes[props.mha] : { mha_cat: props.mha_before.mha_cat };
-  props.delta = props.mha_after.mha_cat - props.mha_before.mha_cat;
+  props.mha_before = window.zoneCodes[zoning];
+  props.mha_after = window.zoneCodes[mha] ? window.zoneCodes[mha] : { mha_cat: props.mha_before.mha_cat };
+  // special-case NC-30 to NC-40
+  if (zoning.match(/nc\d?-30/i) && mha.match(/nc\d?-40/i)) {
+    props.delta = 0;
+  } else {
+    props.delta = props.mha_after.mha_cat - props.mha_before.mha_cat;
+  }
   props.type = window.zoneCodes[props.zoning].type;
 };
 
+var shades = [
+  rgb(96, 30, 30),
+  rgb(192, 40, 40),
+  rgb(255, 120, 80)
+]
+
 var changeColor = function(props) {
   if (props.delta == 0) {
-    return palette.dfMiddleGray;
+    return shades[0];
   } else if (props.delta == 1) {
-      return rgb(128, 30, 30);
+      return shades[1];
   } else if (props.delta > 1) {
-      return rgb(255, 50, 50);
+      return shades[2];
   }
   return magenta;
 };
@@ -69,9 +81,9 @@ var colorizer = {
 var keys = {
   change: `
 <ul>
-  <li> <i class="dot change-m"></i> Same density
-  <li> <i class="dot change-m1"></i> Increased one density level
-  <li> <i class="dot change-m2"></i> Increased two or more density levels
+  <li> <i class="dot" style="background: ${shades[0]}"></i> Increased density within the same level
+  <li> <i class="dot" style="background: ${shades[1]}"></i> Increased one density level
+  <li> <i class="dot" style="background: ${shades[2]}"></i> Increased two or more density levels
 </ul>
   `,
   before: `
