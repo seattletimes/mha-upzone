@@ -143,7 +143,6 @@ var loadData = function() {
     var worker = new Worker("./worker.js");
     worker.onmessage = msg => init(msg.data);
   } else {
-    console.timeStamp("Start XHR");
     xhr("./assets/mha.geojson", (_, data) => init(data));
   }
 };
