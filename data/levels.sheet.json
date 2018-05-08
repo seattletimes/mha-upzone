@@ -1,7 +1,7 @@
 [
   {
     "level": 0,
-    "description": "Single-family homes*"
+    "description": "Single-family homes"
   },
   {
     "level": 1,
@@ -9,11 +9,11 @@
   },
   {
     "level": 2,
-    "description": "Lowrise buildings** and neighborhood commercial buildings under 30'"
+    "description": "Lowrise buildings* and neighborhood commercial buildings under 30'"
   },
   {
     "level": 3,
-    "description": "Denser lowrise buildings** and neighborhood commercial buildings under 55'"
+    "description": "Denser lowrise buildings* and neighborhood commercial buildings under 55'"
   },
   {
     "level": 4,

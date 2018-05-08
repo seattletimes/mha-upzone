@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2018/local/mha-upzones"
     }
   },
   "title": "",
@@ -16,5 +16,5 @@
   "sheets": ["1SA5vQS_lZ27kIXtfrtfaaWX0oVUKq17a7H44LW6hUrQ"],
   "standout": false,
   "embedded": true,
-  "production": false
+  "production": true
 }
