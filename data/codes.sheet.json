@@ -122,12 +122,12 @@
   "HR": {
     "mha_cat": 5,
     "type": "Residential",
-    "description": "Highrise apartments"
+    "description": "High-rise apartments"
   },
   "HR-PUD": {
     "mha_cat": 5,
     "type": "Residential",
-    "description": "Highrise apartments"
+    "description": "High-rise apartments"
   },
   "IC-45": {
     "mha_cat": 3,
@@ -147,57 +147,57 @@
   "LR1": {
     "mha_cat": 2,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR1 RC": {
     "mha_cat": 2,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR2": {
     "mha_cat": 2,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR2 (0.75)": {
     "mha_cat": 2,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR2 PUD": {
     "mha_cat": 2,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR2 RC": {
     "mha_cat": 2,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR3": {
     "mha_cat": 3,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR3 (0.75)": {
     "mha_cat": 3,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR3 (1.2)": {
     "mha_cat": 3,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR3 PUD": {
     "mha_cat": 3,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "LR3 RC": {
     "mha_cat": 3,
     "type": "Residential",
-    "description": "Lowrise building and apartments"
+    "description": "Low-rise building and apartments"
   },
   "MIO-50-C1-40": {
     "mha_cat": 3,
@@ -212,42 +212,42 @@
   "MR": {
     "mha_cat": 4,
     "type": "Residential",
-    "description": "Midrise buildings"
+    "description": "Mid-rise buildings"
   },
   "MR (0.75)": {
     "mha_cat": 4,
     "type": "Residential",
-    "description": "Midrise buildings"
+    "description": "Mid-rise buildings"
   },
   "MR (1.2)": {
     "mha_cat": 4,
     "type": "Residential",
-    "description": "Midrise buildings"
+    "description": "Mid-rise buildings"
   },
   "MR (1.3)": {
     "mha_cat": 4,
     "type": "Residential",
-    "description": "Midrise buildings"
+    "description": "Mid-rise buildings"
   },
   "MR (2.0)": {
     "mha_cat": 4,
     "type": "Residential",
-    "description": "Midrise buildings"
+    "description": "Mid-rise buildings"
   },
   "MR RC": {
     "mha_cat": 4,
     "type": "Residential",
-    "description": "Midrise buildings"
+    "description": "Mid-rise buildings"
   },
   "MR-85": {
     "mha_cat": 4,
     "type": "Residential",
-    "description": "Midrise buildings up to 85' in height"
+    "description": "Mid-rise buildings up to 85' in height"
   },
   "MR-RC": {
     "mha_cat": 4,
     "type": "Residential",
-    "description": "Midrise buildings"
+    "description": "Mid-rise buildings"
   },
   "NC1-30": {
     "mha_cat": 2,
